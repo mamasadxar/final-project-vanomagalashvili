@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -84,4 +85,11 @@ body header .header-container ul li {
   line-height: normal;
   display: inline-block;
   margin-left: 40px;
+}
+
+body .s1 {
+  max-width: 1600px;
+  width: 100%;
+  background-image: url(C:UsersPCZONE.GEÞsktopHWs\f inal-project-vanomagalashviliimagess1bgimg.png);
+  background-color: #E3F1E9;
 }/*# sourceMappingURL=global.css.map */
