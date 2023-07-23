@@ -1,9 +1,12 @@
 body {
     header {
         .headercontainer {
-            margin: 76px auto 0px auto;
+            margin: 40px auto 40px auto;
             max-width: 1402px;
             width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
             img {
                 vertical-align: middle;
@@ -21,6 +24,9 @@ body {
             }
             ul {
                 display: inline-flex;
+                justify-content: space-between;
+                max-width: 500px;
+                width: 100%;
                 
                 li {
                     display: inline-block;
@@ -30,10 +36,6 @@ body {
                     font-style: normal;
                     font-weight: 700;
                     line-height: normal;
-                }
-
-                .l {
-                    margin-right: 30px;
                 }
             }
         }

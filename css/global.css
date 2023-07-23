@@ -49,9 +49,18 @@ table {
 }
 
 body header .headercontainer {
-  margin: 76px auto 0px auto;
+  margin: 40px auto 40px auto;
   max-width: 1402px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 body header .headercontainer img {
   vertical-align: middle;
@@ -70,6 +79,11 @@ body header .headercontainer ul {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 500px;
+  width: 100%;
 }
 body header .headercontainer ul li {
   display: inline-block;
@@ -80,6 +94,10 @@ body header .headercontainer ul li {
   font-weight: 700;
   line-height: normal;
 }
-body header .headercontainer ul .l {
-  margin-right: 30px;
+
+body .s1 {
+  background: #F9F8F8 url(..imagess1bgimg.png) no-repeat fixed center;
+  width: 100%;
+  height: 900px;
+  background-size: auto;
 }/*# sourceMappingURL=global.css.map */
