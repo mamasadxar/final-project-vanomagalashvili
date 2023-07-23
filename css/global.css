@@ -110,4 +110,61 @@ body .s2 .s2flexcontainer {
   height: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 36px;
+  position: relative;
+}
+body .s2 .s2flexcontainer img {
+  border-radius: 30px;
+}
+body .s2 h1 {
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 100px;
+  margin-right: 1200px;
+  color: #ffffff;
+}
+body .s2 h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-top: 40px;
+  margin-right: 1120px;
+}
+body .s2 h3 {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 120px;
+  margin-left: 250px;
+}
+body .s2 h4 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  margin-top: 40px;
+  margin-left: 400px;
 }/*# sourceMappingURL=global.css.map */

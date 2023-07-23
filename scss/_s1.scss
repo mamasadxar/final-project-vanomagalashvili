@@ -13,6 +13,64 @@ body {
             align-items: center;
             height: 100%;
             flex-wrap: wrap;
+            gap: 36px;
+            position: relative;
+
+            img {
+                border-radius: 30px;
+            }
+        }
+        h1 {
+            font-family: Yellowtail;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: inline-block;
+            position: absolute;
+            z-index: 1; 
+            margin-bottom: 100px;
+            margin-right: 1200px;
+            color: #ffffff;
+        }
+        h2 {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            display: inline-block;
+            position: absolute;
+            z-index: 1;
+            margin-top: 40px;
+            margin-right: 1120px;
+        }
+        h3 {
+            color: #7EB693;
+            font-family: Yellowtail;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: inline-block;
+            position: absolute;
+            z-index: 1;
+            margin-bottom: 120px;
+            margin-left: 250px;
+        }
+        h4 {
+            color: #274C5B;
+            font-family: Roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            display: inline-block;
+            position: absolute;
+            z-index: 1;
+            margin-top: 40px;
+            margin-left: 400px;
         }
     }
 
