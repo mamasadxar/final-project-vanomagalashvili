@@ -6,11 +6,12 @@ body {
             height: 204px;
             position: relative;
             display: inline-block;
-            padding: 69px 169px;
+            padding: 69px 169px 0px 169px;
 
             img {
                 display: inline-block;
                 vertical-align: middle;
+                margin-top: 20px;
             }
             h1 {
                 color: #274C5B;
@@ -21,11 +22,13 @@ body {
                 line-height: normal;
                 display: inline-block;
                 vertical-align: middle;
+                margin-top: 20px;
             }
             ul {
                 display: inline-block;
                 vertical-align: middle;
                 margin-left: 800px;
+                margin-top: 20px;
                 li {
                     color: #274C5B;
                     font-family: Roboto;
