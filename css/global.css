@@ -46,4 +46,40 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body header .headercontainer {
+  margin: 76px auto 0px auto;
+  max-width: 1402px;
+  width: 100%;
+}
+body header .headercontainer img {
+  vertical-align: middle;
+}
+body header .headercontainer h1 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+body header .headercontainer ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+body header .headercontainer ul li {
+  display: inline-block;
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body header .headercontainer ul .l {
+  margin-right: 30px;
 }/*# sourceMappingURL=global.css.map */

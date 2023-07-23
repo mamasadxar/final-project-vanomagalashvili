@@ -1,0 +1,41 @@
+body {
+    header {
+        .headercontainer {
+            margin: 76px auto 0px auto;
+            max-width: 1402px;
+            width: 100%;
+
+            img {
+                vertical-align: middle;
+            }
+
+            h1 {
+                color: #274C5B;
+                font-family: Roboto;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            ul {
+                display: inline-flex;
+                
+                li {
+                    display: inline-block;
+                    color: #274C5B;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                .l {
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}
