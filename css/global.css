@@ -96,8 +96,101 @@ body header .headercontainer ul li {
 }
 
 body .s1 {
-  background: #F9F8F8 url(..imagess1bgimg.png) no-repeat fixed center;
+  background: #F9F8F8 url(imagess1bgimg2.png) no-repeat fixed center;
   width: 100%;
   height: 900px;
   background-size: auto;
+  margin-bottom: 30px;
+}
+
+body .s2container {
+  width: 1402px;
+  height: 711px;
+  gap: 36px;
+  margin: 0 auto;
+}
+body .s2container .s2card1 {
+  position: relative;
+  display: inline-block;
+  margin-top: 150px;
+}
+body .s2container .s2card1 img {
+  border-radius: 30px;
+  display: inline-block;
+  position: absolute;
+}
+body .s2container .s2card1 h1 {
+  display: inline-block;
+  position: absolute;
+  color: #ffffff;
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+  margin-top: 110px;
+  margin-right: 500px;
+  margin-left: 50px;
+}
+body .s2container .s2card1 h2 {
+  display: inline-block;
+  position: absolute;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  z-index: 1;
+  width: 300px;
+  margin-top: 160px;
+  margin-left: 50px;
+}
+body .s2container .s2card2 {
+  position: relative;
+  display: inline-block;
+}
+body .s2container .s2card2 img {
+  border-radius: 30px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 700px;
+}
+body .s2container .s2card2 h3 {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 750px;
+}
+body .s2container .s2card2 h4 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  width: 300px;
+  margin-top: 160px;
+  margin-left: 750px;
+}
+
+body .s3 {
+  width: 100%;
+  height: 1067px;
+  background-color: #F9F8F8;
+}
+body .s3 img {
+  display: inline-block;
+  margin-top: 87px;
+  margin-left: 100px;
+  margin-bottom: 113px;
 }/*# sourceMappingURL=global.css.map */
