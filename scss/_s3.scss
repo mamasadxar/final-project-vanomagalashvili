@@ -10,5 +10,125 @@ body {
             margin-left: 100px;
             margin-bottom: 113px;
         }
+        .s3rightcontainer {
+            width: 702px;
+            height: 682px;
+            margin-top: 186px;
+            display: inline-block;
+            position: absolute;
+
+            h1 {
+                color: #7EB693;
+                font-family: Yellowtail;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 8px;
+            }
+            h2 {
+                color: #274C5B;
+                font-family: Roboto;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                margin-bottom: 14px;
+            }
+            h3 {
+                color: #525C60;
+                font-family: Open Sans;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29.772px;
+            }
+            .s3minicard1 {
+                margin-top: 46px;
+
+                .imgbg {
+                    width: 101px;
+                    height: 101px;
+                    border-radius: 20px;
+                    background: #FFF;
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    img {
+                        margin: 0px;
+                        display: inline-block;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+                .text {
+                    display: inline-block;
+
+                    h4 {
+                        color: #274C5B;
+                        font-family: Roboto;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: normal;
+                        margin: 0px;
+                    }
+                    h5 {
+                        color: #525C60;
+                        font-family: Open Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 29.772px;
+                    }
+                }
+            }
+            .s3minicard2 {
+                margin-top: 46px;
+
+                .imgbg {
+                    width: 101px;
+                    height: 101px;
+                    border-radius: 20px;
+                    background: #FFF;
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    img {
+                        margin: 0px;
+                        display: inline-block;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+                .text {
+                    display: inline-block;
+
+                    h4 {
+                        color: #274C5B;
+                        font-family: Roboto;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: normal;
+                        margin: 0px;
+                    }
+                    h5 {
+                        color: #525C60;
+                        font-family: Open Sans;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 29.772px;
+                    }
+                }
+            }
+        }
     }
 }

@@ -49,7 +49,7 @@ table {
 }
 
 body header .headercontainer {
-  margin: 40px auto 40px auto;
+  margin: 40px auto;
   max-width: 1402px;
   width: 100%;
   display: -webkit-box;
@@ -96,11 +96,50 @@ body header .headercontainer ul li {
 }
 
 body .s1 {
-  background: #F9F8F8 url(imagess1bgimg2.png) no-repeat fixed center;
+  background-image: url("../images/s1bgimg2.png"), url("../images/s1bgimg.png");
+  background-color: #F9F8F8;
   width: 100%;
   height: 900px;
   background-size: auto;
   margin-bottom: 30px;
+}
+body .s1 h1 {
+  color: #68A47F;
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 247px;
+  margin-left: 260px;
+  position: absolute;
+}
+body .s1 h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  margin-top: 304px;
+  margin-left: 260px;
+}
+body .s1 button {
+  position: absolute;
+  margin-top: 573px;
+  margin-left: 260px;
+  width: 220px;
+  height: 79px;
+  border-radius: 16px;
+  background: #EFD372;
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
 }
 
 body .s2container {
@@ -193,4 +232,121 @@ body .s3 img {
   margin-top: 87px;
   margin-left: 100px;
   margin-bottom: 113px;
+}
+body .s3 .s3rightcontainer {
+  width: 702px;
+  height: 682px;
+  margin-top: 186px;
+  display: inline-block;
+  position: absolute;
+}
+body .s3 .s3rightcontainer h1 {
+  color: #7EB693;
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+body .s3 .s3rightcontainer h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+body .s3 .s3rightcontainer h3 {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.772px;
+}
+body .s3 .s3rightcontainer .s3minicard1 {
+  margin-top: 46px;
+}
+body .s3 .s3rightcontainer .s3minicard1 .imgbg {
+  width: 101px;
+  height: 101px;
+  border-radius: 20px;
+  background: #FFF;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+body .s3 .s3rightcontainer .s3minicard1 .imgbg img {
+  margin: 0px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+body .s3 .s3rightcontainer .s3minicard1 .text {
+  display: inline-block;
+}
+body .s3 .s3rightcontainer .s3minicard1 .text h4 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+body .s3 .s3rightcontainer .s3minicard1 .text h5 {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.772px;
+}
+body .s3 .s3rightcontainer .s3minicard2 {
+  margin-top: 46px;
+}
+body .s3 .s3rightcontainer .s3minicard2 .imgbg {
+  width: 101px;
+  height: 101px;
+  border-radius: 20px;
+  background: #FFF;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+body .s3 .s3rightcontainer .s3minicard2 .imgbg img {
+  margin: 0px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+body .s3 .s3rightcontainer .s3minicard2 .text {
+  display: inline-block;
+}
+body .s3 .s3rightcontainer .s3minicard2 .text h4 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0px;
+}
+body .s3 .s3rightcontainer .s3minicard2 .text h5 {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.772px;
 }/*# sourceMappingURL=global.css.map */
