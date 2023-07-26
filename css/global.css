@@ -414,15 +414,65 @@ body .s4 .s4flexcontainer {
   margin: 0 auto;
   gap: 20px;
 }
-body .s4 .s4flexcontainer .s4card {
+body .s4 .s4flexcontainer .s4card1 {
   width: 335px;
-  height: 483px;
+  height: 490px;
   border-radius: 30px;
   background: #F9F8F8;
+  background-image: url("../images/s4card1.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-body .s4 .s4flexcontainer .s4card .s4cardh1bg {
+body .s4 .s4flexcontainer .s4card1 .s4cardh1bg {
   border-radius: 8px;
   background: #274C5B;
   width: 96px;
   height: 31px;
+  margin-top: 29px;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+body .s4 .s4flexcontainer .s4card1 .s4cardh1bg h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+body .s4 .s4flexcontainer .s4card1 h4 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 169px;
+  margin-top: 339px;
+  margin-left: 30px;
+}
+body .s4 .s4flexcontainer .s4card1 svg {
+  margin-left: 30px;
+}
+body .s4 .s4flexcontainer .s4card1 h5 {
+  color: #B8B8B8;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 9px;
+  display: inline-block;
+  margin-left: 30px;
+}
+body .s4 .s4flexcontainer .s4card1 h6 {
+  color: #274C5B;
+  display: inline-block;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 8px;
 }/*# sourceMappingURL=global.css.map */
