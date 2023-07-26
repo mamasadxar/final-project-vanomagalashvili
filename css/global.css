@@ -1002,4 +1002,135 @@ body .s6 {
   background-color: #F1F8F4;
   width: 100%;
   height: 957px;
+}
+body .s6 .s6flexcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .s6 .s6flexcontainer .s6card1 {
+  position: relative;
+  display: inline-block;
+  height: 612px;
+  width: 583px;
+}
+body .s6 .s6flexcontainer .s6card1 img {
+  display: inline-block;
+  position: absolute;
+}
+body .s6 .s6flexcontainer .s6card1 .s6cardtextbg {
+  width: 320px;
+  height: 96px;
+  position: absolute;
+  border-radius: 20px;
+  background: #FFF;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+body .s6 .s6flexcontainer .s6card1 .s6cardtextbg h1 {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+body .s6 .s6flexcontainer .s6card2 {
+  position: relative;
+  display: inline-block;
+  height: 612px;
+  width: 583px;
+}
+body .s6 .s6flexcontainer .s6card2 img {
+  display: inline-block;
+  position: absolute;
+}
+body .s6 .s6flexcontainer .s6card2 .s6cardtextbg {
+  width: 320px;
+  height: 96px;
+  position: absolute;
+  border-radius: 20px;
+  background: #FFF;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+body .s6 .s6flexcontainer .s6card2 .s6cardtextbg h1 {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+body .s6 .s6flexcontainer .s6card3 {
+  position: relative;
+  display: inline-block;
+  height: 612px;
+  width: 612px;
+}
+body .s6 .s6flexcontainer .s6card3 img {
+  display: inline-block;
+  position: absolute;
+}
+body .s6 .s6flexcontainer .s6card3 .s6cardtextbg {
+  width: 320px;
+  height: 96px;
+  position: absolute;
+  border-radius: 20px;
+  background: #FFF;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+body .s6 .s6flexcontainer .s6card3 .s6cardtextbg h1 {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=global.css.map */
