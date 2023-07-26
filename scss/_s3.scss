@@ -54,6 +54,7 @@ body {
                     position: relative;
                     display: inline-block;
                     vertical-align: top;
+                    margin-right: 19px;
 
                     img {
                         margin: 0px;
@@ -97,6 +98,7 @@ body {
                     position: relative;
                     display: inline-block;
                     vertical-align: top;
+                    margin-right: 19px;
 
                     img {
                         margin: 0px;
@@ -128,6 +130,25 @@ body {
                         line-height: 29.772px;
                     }
                 }
+            }
+            button{
+                display: flex;
+                width: 220px;
+                padding: 28px 39px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border: none;
+                border-radius: 16px;
+                background: #274C5B;
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 47px;
             }
         }
     }
