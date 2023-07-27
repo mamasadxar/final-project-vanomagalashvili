@@ -477,9 +477,10 @@ body .s4 .s4flexcontainer .s4card1 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 40px;
 }
 body .s4 .s4flexcontainer .s4card1 .starsrating {
-  margin-left: 40px;
+  margin-left: 35px;
 }
 body .s4 .s4flexcontainer .s4card2 {
   width: 335px;
@@ -542,6 +543,7 @@ body .s4 .s4flexcontainer .s4card2 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 45px;
 }
 body .s4 .s4flexcontainer .s4card3 {
   width: 335px;
@@ -604,6 +606,7 @@ body .s4 .s4flexcontainer .s4card3 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 45px;
 }
 body .s4 .s4flexcontainer .s4card4 {
   width: 335px;
@@ -666,6 +669,7 @@ body .s4 .s4flexcontainer .s4card4 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 45px;
 }
 body .s4 .s4flexcontainer .s4card5 {
   width: 335px;
@@ -728,6 +732,7 @@ body .s4 .s4flexcontainer .s4card5 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 45px;
 }
 body .s4 .s4flexcontainer .s4card6 {
   width: 335px;
@@ -790,6 +795,7 @@ body .s4 .s4flexcontainer .s4card6 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 45px;
 }
 body .s4 .s4flexcontainer .s4card7 {
   width: 335px;
@@ -852,6 +858,7 @@ body .s4 .s4flexcontainer .s4card7 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 45px;
 }
 body .s4 .s4flexcontainer .s4card8 {
   width: 335px;
@@ -914,6 +921,7 @@ body .s4 .s4flexcontainer .s4card8 h6 {
   font-weight: 700;
   line-height: normal;
   margin-left: 8px;
+  margin-right: 45px;
 }
 body .s4 button {
   display: -webkit-box;
