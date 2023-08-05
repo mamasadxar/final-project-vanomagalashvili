@@ -1,49 +1,63 @@
 body {
     .s1 {
         background-image: url("../images/s1bgimg2.png"), url("../images/s1bgimg.png");
-        background-color: #F9F8F8;
+        background-color: #f9f9f8, #f9f9f8;
         width: 100%;
         height: 900px;
         background-size: auto;
         margin-bottom: 30px;
 
-        h1 {
-            color: #68A47F;
-            font-family: Yellowtail;
-            font-size: 36px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            margin-top: 247px;
-            margin-left: 260px;
-            position: absolute;
-        }
-        h2 {
-            color: #274C5B;
-            font-family: Roboto;
-            font-size: 70px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: normal;
-            position: absolute;
-            margin-top: 304px;
-            margin-left: 260px;
-        }
-        button {
-            position: absolute;
-            margin-top: 573px;
-            margin-left: 260px;
-            width: 220px;
-            height: 79px;
-            border-radius: 16px;
-            background: #EFD372;
-            color: #274C5B;
-            font-family: Roboto;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            border: none;
+        .s1container {
+            max-width: 1400px;
+            width: 90%;
+            margin: 0 auto;
+            height: 100%;
+
+            h1 {
+                color: #68A47F;
+                font-family: Yellowtail;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 247px;
+                position: absolute;
+            }
+            h2 {
+                color: #274C5B;
+                font-family: Roboto;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                position: absolute;
+                margin-top: 304px;
+            }
+            button {
+                position: absolute;
+                margin-top: 573px;
+                width: 220px;
+                height: 79px;
+                border-radius: 16px;
+                background: #EFD372;
+                color: #274C5B;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                border: none;
+            }
+            @media only screen and (max-width: 538px) {
+                button {
+                  margin-top: 640px;
+                }
+            }
+            @media only screen and (max-width: 444px) {
+                button {
+                  margin-top: 650px;
+                }
+            }
         }
     }
 }

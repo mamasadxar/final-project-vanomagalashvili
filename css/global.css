@@ -50,8 +50,8 @@ table {
 
 body header .headercontainer {
   margin: 40px auto;
-  max-width: 1402px;
-  width: 100%;
+  max-width: 1440px;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,16 +94,27 @@ body header .headercontainer ul li {
   font-weight: 700;
   line-height: normal;
 }
+@media only screen and (max-width: 830px) {
+  body header .headercontainer ul {
+    display: none;
+  }
+}
 
 body .s1 {
   background-image: url("../images/s1bgimg2.png"), url("../images/s1bgimg.png");
-  background-color: #F9F8F8;
+  background-color: #f9f9f8, #f9f9f8;
   width: 100%;
   height: 900px;
   background-size: auto;
   margin-bottom: 30px;
 }
-body .s1 h1 {
+body .s1 .s1container {
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+body .s1 .s1container h1 {
   color: #68A47F;
   font-family: Yellowtail;
   font-size: 36px;
@@ -111,10 +122,9 @@ body .s1 h1 {
   font-weight: 400;
   line-height: normal;
   margin-top: 247px;
-  margin-left: 260px;
   position: absolute;
 }
-body .s1 h2 {
+body .s1 .s1container h2 {
   color: #274C5B;
   font-family: Roboto;
   font-size: 70px;
@@ -123,12 +133,10 @@ body .s1 h2 {
   line-height: normal;
   position: absolute;
   margin-top: 304px;
-  margin-left: 260px;
 }
-body .s1 button {
+body .s1 .s1container button {
   position: absolute;
   margin-top: 573px;
-  margin-left: 260px;
   width: 220px;
   height: 79px;
   border-radius: 16px;
@@ -141,9 +149,20 @@ body .s1 button {
   line-height: normal;
   border: none;
 }
+@media only screen and (max-width: 538px) {
+  body .s1 .s1container button {
+    margin-top: 640px;
+  }
+}
+@media only screen and (max-width: 444px) {
+  body .s1 .s1container button {
+    margin-top: 650px;
+  }
+}
 
 body .s2container {
-  width: 1402px;
+  max-width: 1440px;
+  width: 90%;
   height: 711px;
   gap: 36px;
   margin: 0 auto;
@@ -227,20 +246,31 @@ body .s3 {
   height: 1067px;
   background-color: #F9F8F8;
 }
-body .s3 img {
-  display: inline-block;
-  margin-top: 87px;
-  margin-left: 100px;
-  margin-bottom: 113px;
+body .s3 .s3container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1440px;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-body .s3 .s3rightcontainer {
-  width: 702px;
-  height: 682px;
-  margin-top: 186px;
+body .s3 .s3container .s3img {
   display: inline-block;
-  position: absolute;
+  width: 911px;
+  height: 867px;
 }
-body .s3 .s3rightcontainer h1 {
+body .s3 .s3container .s3rightcontainer {
+  width: 600px;
+  display: inline-block;
+}
+body .s3 .s3container .s3rightcontainer h1 {
   color: #7EB693;
   font-family: Yellowtail;
   font-size: 36px;
@@ -249,7 +279,7 @@ body .s3 .s3rightcontainer h1 {
   line-height: normal;
   margin-bottom: 8px;
 }
-body .s3 .s3rightcontainer h2 {
+body .s3 .s3container .s3rightcontainer h2 {
   color: #274C5B;
   font-family: Roboto;
   font-size: 50px;
@@ -258,7 +288,7 @@ body .s3 .s3rightcontainer h2 {
   line-height: normal;
   margin-bottom: 14px;
 }
-body .s3 .s3rightcontainer h3 {
+body .s3 .s3container .s3rightcontainer h3 {
   color: #525C60;
   font-family: Open Sans;
   font-size: 18px;
@@ -266,10 +296,10 @@ body .s3 .s3rightcontainer h3 {
   font-weight: 400;
   line-height: 29.772px;
 }
-body .s3 .s3rightcontainer .s3minicard1 {
+body .s3 .s3container .s3rightcontainer .s3minicard1 {
   margin-top: 46px;
 }
-body .s3 .s3rightcontainer .s3minicard1 .imgbg {
+body .s3 .s3container .s3rightcontainer .s3minicard1 .imgbg {
   width: 101px;
   height: 101px;
   border-radius: 20px;
@@ -279,7 +309,7 @@ body .s3 .s3rightcontainer .s3minicard1 .imgbg {
   vertical-align: top;
   margin-right: 19px;
 }
-body .s3 .s3rightcontainer .s3minicard1 .imgbg img {
+body .s3 .s3container .s3rightcontainer .s3minicard1 .imgbg img {
   margin: 0px;
   display: inline-block;
   position: absolute;
@@ -289,10 +319,10 @@ body .s3 .s3rightcontainer .s3minicard1 .imgbg img {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-body .s3 .s3rightcontainer .s3minicard1 .text {
+body .s3 .s3container .s3rightcontainer .s3minicard1 .text {
   display: inline-block;
 }
-body .s3 .s3rightcontainer .s3minicard1 .text h4 {
+body .s3 .s3container .s3rightcontainer .s3minicard1 .text h4 {
   color: #274C5B;
   font-family: Roboto;
   font-size: 25px;
@@ -301,7 +331,7 @@ body .s3 .s3rightcontainer .s3minicard1 .text h4 {
   line-height: normal;
   margin: 0px;
 }
-body .s3 .s3rightcontainer .s3minicard1 .text h5 {
+body .s3 .s3container .s3rightcontainer .s3minicard1 .text h5 {
   color: #525C60;
   font-family: Open Sans;
   font-size: 18px;
@@ -309,10 +339,10 @@ body .s3 .s3rightcontainer .s3minicard1 .text h5 {
   font-weight: 400;
   line-height: 29.772px;
 }
-body .s3 .s3rightcontainer .s3minicard2 {
+body .s3 .s3container .s3rightcontainer .s3minicard2 {
   margin-top: 46px;
 }
-body .s3 .s3rightcontainer .s3minicard2 .imgbg {
+body .s3 .s3container .s3rightcontainer .s3minicard2 .imgbg {
   width: 101px;
   height: 101px;
   border-radius: 20px;
@@ -322,7 +352,7 @@ body .s3 .s3rightcontainer .s3minicard2 .imgbg {
   vertical-align: top;
   margin-right: 19px;
 }
-body .s3 .s3rightcontainer .s3minicard2 .imgbg img {
+body .s3 .s3container .s3rightcontainer .s3minicard2 .imgbg img {
   margin: 0px;
   display: inline-block;
   position: absolute;
@@ -332,10 +362,10 @@ body .s3 .s3rightcontainer .s3minicard2 .imgbg img {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-body .s3 .s3rightcontainer .s3minicard2 .text {
+body .s3 .s3container .s3rightcontainer .s3minicard2 .text {
   display: inline-block;
 }
-body .s3 .s3rightcontainer .s3minicard2 .text h4 {
+body .s3 .s3container .s3rightcontainer .s3minicard2 .text h4 {
   color: #274C5B;
   font-family: Roboto;
   font-size: 25px;
@@ -344,7 +374,7 @@ body .s3 .s3rightcontainer .s3minicard2 .text h4 {
   line-height: normal;
   margin: 0px;
 }
-body .s3 .s3rightcontainer .s3minicard2 .text h5 {
+body .s3 .s3container .s3rightcontainer .s3minicard2 .text h5 {
   color: #525C60;
   font-family: Open Sans;
   font-size: 18px;
@@ -352,7 +382,7 @@ body .s3 .s3rightcontainer .s3minicard2 .text h5 {
   font-weight: 400;
   line-height: 29.772px;
 }
-body .s3 .s3rightcontainer button {
+body .s3 .s3container .s3rightcontainer button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,8 +412,10 @@ body .s3 .s3rightcontainer button {
 }
 
 body .s4 {
+  max-width: 1440px;
   width: 100%;
-  height: 1719px;
+  height: 100%;
+  margin: 0 auto;
 }
 body .s4 h1 {
   color: #7EB693;
@@ -409,7 +441,7 @@ body .s4 .s4flexcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 74%;
+  width: 90%;
   margin: 0 auto;
   gap: 20px;
   -ms-flex-wrap: wrap;
@@ -950,6 +982,7 @@ body .s4 button {
   line-height: normal;
   margin: 0 auto;
   margin-top: 122px;
+  margin-bottom: 122px;
 }
 
 body .s5 {
