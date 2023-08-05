@@ -103,10 +103,12 @@ body header .headercontainer ul li {
 body .s1 {
   background-image: url("../images/s1bgimg2.png"), url("../images/s1bgimg.png");
   background-color: #f9f9f8, #f9f9f8;
+  max-width: 1440px;
   width: 100%;
   height: 900px;
   background-size: auto;
   margin-bottom: 30px;
+  margin: 0 auto;
 }
 body .s1 .s1container {
   max-width: 1400px;
@@ -243,13 +245,19 @@ body .s2container .s2card2 h4 {
 
 body .s3 {
   width: 100%;
-  height: 1067px;
+  height: 100%;
   background-color: #F9F8F8;
 }
 body .s3 .s3container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   max-width: 1440px;
   width: 90%;
   height: 100%;
@@ -1041,6 +1049,7 @@ body .s5 .d1 h4 {
 
 body .s6 {
   background-color: #F1F8F4;
+  max-width: 1440px;
   width: 100%;
   height: 957px;
 }
@@ -1061,12 +1070,14 @@ body .s6 .s6flexcontainer {
 body .s6 .s6flexcontainer .s6card1 {
   position: relative;
   display: inline-block;
-  height: 612px;
-  width: 583px;
+  width: 472px;
+  height: 448px;
 }
 body .s6 .s6flexcontainer .s6card1 img {
   display: inline-block;
   position: absolute;
+  width: 472px;
+  height: 448px;
 }
 body .s6 .s6flexcontainer .s6card1 .s6cardtextbg {
   width: 320px;
@@ -1100,12 +1111,14 @@ body .s6 .s6flexcontainer .s6card1 .s6cardtextbg h1 {
 body .s6 .s6flexcontainer .s6card2 {
   position: relative;
   display: inline-block;
-  height: 612px;
-  width: 583px;
+  width: 472px;
+  height: 448px;
 }
 body .s6 .s6flexcontainer .s6card2 img {
   display: inline-block;
   position: absolute;
+  width: 472px;
+  height: 448px;
 }
 body .s6 .s6flexcontainer .s6card2 .s6cardtextbg {
   width: 320px;
@@ -1139,12 +1152,14 @@ body .s6 .s6flexcontainer .s6card2 .s6cardtextbg h1 {
 body .s6 .s6flexcontainer .s6card3 {
   position: relative;
   display: inline-block;
-  height: 612px;
-  width: 612px;
+  width: 472px;
+  height: 448px;
 }
 body .s6 .s6flexcontainer .s6card3 img {
   display: inline-block;
   position: absolute;
+  width: 472px;
+  height: 448px;
 }
 body .s6 .s6flexcontainer .s6card3 .s6cardtextbg {
   width: 320px;
