@@ -168,11 +168,21 @@ body .s2container {
   height: 711px;
   gap: 36px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 body .s2container .s2card1 {
   position: relative;
   display: inline-block;
-  margin-top: 150px;
   width: 683px;
   height: 367px;
 }
@@ -219,7 +229,6 @@ body .s2container .s2card2 img {
   border-radius: 30px;
   display: inline-block;
   position: absolute;
-  margin-left: 700px;
 }
 body .s2container .s2card2 h3 {
   color: #7EB693;
@@ -231,7 +240,7 @@ body .s2container .s2card2 h3 {
   display: inline-block;
   position: absolute;
   margin-top: 110px;
-  margin-left: 750px;
+  margin-left: 50px;
 }
 body .s2container .s2card2 h4 {
   color: #274C5B;
@@ -244,12 +253,17 @@ body .s2container .s2card2 h4 {
   position: absolute;
   width: 300px;
   margin-top: 160px;
-  margin-left: 750px;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 1557px) {
+  body .s2container {
+    height: 1000px;
+  }
 }
 
 body .s3 {
   width: 100%;
-  height: 100%;
+  height: 850px;
   background-color: #F9F8F8;
 }
 body .s3 .s3container {
@@ -275,8 +289,8 @@ body .s3 .s3container {
 }
 body .s3 .s3container .s3img {
   display: inline-block;
-  width: 911px;
-  height: 867px;
+  width: 711px;
+  height: 667px;
 }
 body .s3 .s3container .s3rightcontainer {
   width: 600px;
@@ -1050,6 +1064,11 @@ body .s5 .d1 h4 {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 35px;
+}
+@media only screen and (max-width: 1440px) {
+  body .s5 .d1 {
+    margin-left: 600px;
+  }
 }
 
 body .s6 {

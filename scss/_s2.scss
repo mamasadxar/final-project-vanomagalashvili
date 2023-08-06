@@ -5,11 +5,14 @@ body {
         height: 711px;
         gap: 36px;
         margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
 
         .s2card1 {
             position: relative;
             display: inline-block;
-            margin-top: 150px;
             width: 683px;
             height: 367px;
 
@@ -57,7 +60,6 @@ body {
                 border-radius: 30px;
                 display: inline-block;
                 position: absolute;
-                margin-left: 700px;
             }
             h3 {
                 color: #7EB693;
@@ -69,7 +71,7 @@ body {
                 display: inline-block;
                 position: absolute;
                 margin-top: 110px;
-                margin-left: 750px;
+                margin-left: 50px;
             }
             h4 {
                 color: #274C5B;
@@ -82,8 +84,13 @@ body {
                 position: absolute;
                 width: 300px;
                 margin-top: 160px;
-                margin-left: 750px;
+                margin-left: 50px;
             }
         }
     }
+    @media only screen and (max-width: 1557px) {
+        .s2container {
+          height: 1000px;
+        }
+      }
 }
