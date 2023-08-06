@@ -27,11 +27,13 @@ body {
         }
         .s4flexcontainer {
             display: flex;
-            width: 90%;
+            width: 100%;
             margin: 0 auto;
             gap: 20px;
             flex-wrap: wrap;
             margin-top: 40px;
+            justify-content: center;
+            align-items: center;
 
             .s4card1 {
                 width: 335px;

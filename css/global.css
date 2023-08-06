@@ -436,6 +436,11 @@ body .s3 .s3container .s3rightcontainer button {
   line-height: normal;
   margin-top: 47px;
 }
+@media only screen and (max-width: 1456px) {
+  body .s3 {
+    height: 1500px;
+  }
+}
 
 body .s4 {
   max-width: 1440px;
@@ -467,12 +472,18 @@ body .s4 .s4flexcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   gap: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 body .s4 .s4flexcontainer .s4card1 {
   width: 335px;
