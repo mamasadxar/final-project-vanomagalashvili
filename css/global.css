@@ -1000,7 +1000,7 @@ body .s5 {
   background-repeat: no-repeat;
 }
 body .s5 .d1 {
-  width: 900px;
+  width: 430px;
   height: 723px;
   background-color: #ffffff;
   display: inline-block;
@@ -1008,7 +1008,8 @@ body .s5 .d1 {
   margin-left: 871px;
   border-radius: 30px;
   padding-left: 89px;
-  padding-top: 79px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 body .s5 .d1 h1 {
   color: #7EB693;
